@@ -1,4 +1,4 @@
-# what is this
+# What is this
 this repository is for Linux Development Environmental Setup(NeoVim, Tmux, Zsh)
 
 # Installation
@@ -51,5 +51,70 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-### Pligins
+## Install plugins list
+
+- [vim-horizon](https://github.com/ntk148v/vim-horizon)
+
+- [nerdtree](https://github.com/preservim/nerdtree)
+
+- [vim-plug](https://github.com/junegunn/vim-plug)
+
+- [fzf](https://github.com/junegunn/fzf#vim-plugin)
+
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+- [vim-commentary](https://github.com/tpope/vim-commentary)
+
+- [coc.vim](https://github.com/neoclide/coc.nvim)
+
+## Vim-plug commands
+
+
+```
+// plugin install
+
+:PlugInstall
+
+// plugin status
+
+:PlugStatus
+
+// pligin update
+
+:PlugUpdate
+```
+
+## Coc.nvim Extensions
+
+```
+:CocInstall coc-json coc-tsserver coc-markdownlint coc-markdown-preview-enhanced
+:CocList extensions
+
+```
+
+# ps
+
 ## Setup git alias
+
+## VSCCode Plugins
+
+- Github theme
+- Git Graph
+- Docker
+- ES7
+- Material Icon Theme
+- VSCode NeoVim
+- Remote-Container
+
+
+
+
+
+
+
+
+
+
+
+
+
