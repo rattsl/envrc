@@ -1,0 +1,5 @@
+# Chrome extensions
+
+- Vimium
+- Momentum
+
