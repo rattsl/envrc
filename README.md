@@ -23,6 +23,7 @@ $ echo $SHELL
 $ chsh -s /bin/zsh
 ```
 
+
 ## Setup .zshrc
 
 ```
@@ -54,17 +55,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## Install plugins list
 
 - [vim-horizon](https://github.com/ntk148v/vim-horizon)
-
 - [nerdtree](https://github.com/preservim/nerdtree)
-
 - [vim-plug](https://github.com/junegunn/vim-plug)
-
 - [fzf](https://github.com/junegunn/fzf#vim-plugin)
-
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
-
 - [vim-commentary](https://github.com/tpope/vim-commentary)
-
 - [coc.vim](https://github.com/neoclide/coc.nvim)
 
 ## Vim-plug commands
@@ -99,30 +94,4 @@ replace `Ctl + g` from `Ctl + b`
 ```
 $ cp .tmux.conf ~/
 ```
-
-# ps
-
-## Setup git alias
-
-## VSCCode Plugins
-
-- Github theme
-- Git Graph
-- Docker
-- ES7
-- Material Icon Theme
-- VSCode NeoVim
-- Remote-Container
-
-
-
-
-
-
-
-
-
-
-
-
 
