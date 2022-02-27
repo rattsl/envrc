@@ -30,6 +30,21 @@ $ chsh -s /bin/zsh
 ```
 $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+## Oh-my-zsh plugin install
+This plugins are 3rd party liblary, so we need `git clone` to install those plugins.
+
+- [auto-suggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+Before installing this plugin, we need some [fonts](https://github.com/romkatv/powerlevel10k#fonts), and configure your terminal to use this font.
+
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
 
 
 ## Setup .zshrc
