@@ -23,18 +23,27 @@ $ echo $SHELL
 $ chsh -s /bin/zsh
 ```
 
+## Install oh-my-zsh
+
+[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+
+```
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 
 ## Setup .zshrc
 
 ```
 $ cp .zshrc ~/
+$ source .zshrc
 $ exec zsh
 ```
 
 ## Install nvim
 
 ```
-# brew install neovim 
+$ brew install neovim 
 ```
 
 ## Setup nvim conf
@@ -67,15 +76,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 ```
 // plugin install
-
 :PlugInstall
 
 // plugin status
-
 :PlugStatus
 
 // pligin update
-
 :PlugUpdate
 ```
 
