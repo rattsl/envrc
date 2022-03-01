@@ -1,11 +1,3 @@
-# What is this
-this repository is for Linux Development Environmental Setup(NeoVim, Tmux, Zsh)
-
-# Installation
-
-install Neovim(vim), Tmux, Zsh
-
-```
 $ brew install screen
 $ brew install tmux
 $ brew install vim
@@ -14,6 +6,11 @@ $ brew install neovim
 
 ---
 
+## Cmder Setup
+
+```
+"\\wsl$\Ubuntu\home\u-kakiuchi"
+```
 
 ## Install zsh
 
