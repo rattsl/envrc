@@ -1,3 +1,4 @@
+```
 $ brew install screen
 $ brew install tmux
 $ brew install vim
